@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AuraClient"
 include(":jre_lwjgl3glfw")
-include(":AuraClient")
+include(":ZalithLauncher")
