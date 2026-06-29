@@ -44,7 +44,7 @@ jobs:
       - name: Build Release
         env:
           MOVTERY_KEYSTORE_PASSWORD: ${{ secrets.MOVTERY_KEYSTORE_PASSWORD }}
-        run: ./gradlew :AuraClient:assembleRelease -Darch=${{ matrix.arch }} --stacktrace
+        run: ./gradlew :ZalithLauncher:assembleRelease -Darch=${{ matrix.arch }} --stacktrace
 
       - name: Upload Release APK
         uses: actions/upload-artifact@v4
@@ -82,7 +82,7 @@ jobs:
         run: ./gradlew :jre_lwjgl3glfw:build --no-daemon
 
       - name: Build Debug
-        run: ./gradlew :AuraClient:assembleDebug -Darch=${{ matrix.arch }} --stacktrace
+        run: ./gradlew :ZalithLauncher:assembleRelease -Darch=${{ matrix.arch }} --stacktrace
 
       - name: Upload Debug APK
         uses: actions/upload-artifact@v4
