@@ -1,18 +1,18 @@
 <div align="center">
-    <img width="256" src="ZalithLauncher/src/main/res/drawable/app_name_title.png"></img>
+    <img width="256" src="AuraClient/src/main/res/drawable/app_name_title.png"></img>
 </div>
 
 <div align="center">
 
-[![Android CI](https://github.com/ZalithLauncher/ZalithLauncher/actions/workflows/android.yml/badge.svg)](https://github.com/ZalithLauncher/ZalithLauncher/actions/workflows/android.yml)
-![Downloads](https://img.shields.io/github/downloads/ZalithLauncher/ZalithLauncher/total)
+[![Android CI](https://github.com/AuraClient/AuraClient/actions/workflows/android.yml/badge.svg)](https://github.com/AuraClient/AuraClient/actions/workflows/android.yml)
+![Downloads](https://img.shields.io/github/downloads/AuraClient/AuraClient/total)
 [![Sponsor](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors)](https://afdian.com/a/MovTery)
 
 </div>
 
 - <a href="/README.md">English</a>丨<a href="/README_ZH_CN.md">简体中文</a>
-- Zalith Launcher 是一款基於 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) 開發的 Minecraft 啟動器，它能夠在 Android 設備上運行 [Minecraft: Java Edition](https://www.minecraft.net/)。
-- Zalith Launcher 致力於優化用戶體驗，重新設計了應用介面，新增了更多實用的功能，旨在最大程度地降低遊玩門檻，讓更多人能夠輕鬆體驗 Minecraft 的樂趣。
+- AuraClient 是一款基於 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) 開發的 Minecraft 啟動器，它能夠在 Android 設備上運行 [Minecraft: Java Edition](https://www.minecraft.net/)。
+- AuraClient 致力於優化用戶體驗，重新設計了應用介面，新增了更多實用的功能，旨在最大程度地降低遊玩門檻，讓更多人能夠輕鬆體驗 Minecraft 的樂趣。
 
 > [!WARNING]
 > 注意！此專案只是**社群改版**，就像 PojavLauncher 是基於 [Boardwalk](https://github.com/zhuowei/Boardwalk) 開發的一樣。  
@@ -37,7 +37,7 @@
 
 <h2 align="center">協議</h2>
 
-- Zalith Launcher 在 GPL v3 協議下開源。
+- AuraClient 在 GPL v3 協議下開源。
 
 <h2 align="center">特別感謝</h2>
 
@@ -57,7 +57,7 @@
 >- [libepoxy](https://github.com/anholt/libepoxy): [MIT License](https://github.com/anholt/libepoxy/blob/master/COPYING)。
 >- [virglrenderer](https://github.com/PojavLauncherTeam/virglrenderer): [MIT License](https://gitlab.freedesktop.org/virgl/virglrenderer/-/blob/master/COPYING)。
 
-#### Zalith Launcher 額外使用的程式庫
+#### AuraClient 額外使用的程式庫
 
 >- [HMCL](https://github.com/HMCL-dev/HMCL) (使用了一些源代碼): [GPL-3.0 授權條款](https://github.com/HMCL-dev/HMCL/blob/main/LICENSE)
 >- [CommonMark](https://github.com/thephpleague/commonmark) (用於渲染 Markdown 文本): [BSD-3-Clause License](https://github.com/thephpleague/commonmark/blob/2.5/LICENSE)。

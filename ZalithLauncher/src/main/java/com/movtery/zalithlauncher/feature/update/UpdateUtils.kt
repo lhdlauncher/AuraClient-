@@ -163,8 +163,8 @@ class UpdateUtils {
         @JvmStatic
         fun getDownloadUrl(launcherVersion: LauncherVersion): String {
             val archModel = getArchModel()
-            return "https://github.com/ZalithLauncher/ZalithLauncher/releases/download/" +
-                    "${launcherVersion.versionCode}/ZalithLauncher-${launcherVersion.versionName}" +
+            return "https://github.com/AuraClient/AuraClient/releases/download/" +
+                    "${launcherVersion.versionCode}/AuraClient-${launcherVersion.versionName}" +
                     "${(if (archModel != null) String.format("-%s", archModel) else "")}.apk"
         }
 
